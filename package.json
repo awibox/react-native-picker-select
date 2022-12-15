@@ -1,6 +1,6 @@
 {
     "name": "@awibox/react-native-picker-select",
-    "version": "9.0.0",
+    "version": "0.0.0-development",
     "description": "A Picker component for React Native which emulates the native <select> interfaces for each platform",
     "license": "MIT",
     "author": "Michael Lefkowitz <lefkowitz.michael@gmail.com>",
@@ -24,19 +24,18 @@
         "/src"
     ],
     "dependencies": {
-        "@react-native-community/eslint-config": "^3.2.0",
         "@react-native-picker/picker": "^2.4.8",
-        "eslint": "^8.29.0",
-        "lodash.isequal": "^4.5.0",
-        "semantic-release": "^19.0.5"
+        "lodash.isequal": "^4.5.0"
     },
     "devDependencies": {
+        "@react-native-community/eslint-config": "^3.2.0",
         "@types/react-native": "^0.60.22",
         "babel-jest": "^23.6.0",
         "babel-preset-react-native": "^4.0.1",
         "enzyme": "^3.7.0",
         "enzyme-adapter-react-16": "^1.7.0",
         "enzyme-to-json": "^3.3.5",
+        "eslint": "^8.29.0",
         "husky": "^2.4.0",
         "jest": "^23.6.0",
         "prettier": "^2.0.5",
@@ -45,7 +44,8 @@
         "react": "16.6.1",
         "react-dom": "^16.6.1",
         "react-native": "0.57.7",
-        "react-test-renderer": "^16.6.1"
+        "react-test-renderer": "^16.6.1",
+        "semantic-release": "^19.0.5"
     },
     "scripts": {
         "test": "jest",
@@ -55,7 +55,8 @@
         "prettier:debug-check": "prettier --config ./.prettierrc.js --debug-check \"{src,test}/**/*.js\"",
         "preprettier:all": "yarn run prettier:debug-check",
         "prettier:all": "prettier --config ./.prettierrc.js --write \"{src,test}/**/*.js\"",
-        "lint": "echo \"---Running ESLint---\" && eslint \"src/**/*.{js,jsx}\""
+        "lint": "echo \"---Running ESLint---\" && eslint \"src/**/*.{js,jsx}\"",
+        "semantic-release": "semantic-release"
     },
     "husky": {
         "hooks": {
