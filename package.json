@@ -6,7 +6,7 @@
     "author": "Michael Lefkowitz <lefkowitz.michael@gmail.com>",
     "repository": {
         "type": "git",
-        "url": "https://github.com/awibox/react-native-picker-select.git"
+        "url": "https://github.com/awibox/react-native-picker-select-updated.git"
     },
     "main": "src/index.js",
     "keywords": [

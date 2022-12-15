@@ -1,9 +1,9 @@
 # react-native-picker-select
 
-[![npm version](https://badge.fury.io/js/react-native-picker-select.svg)](https://badge.fury.io/js/react-native-picker-select)
-[![npm downloads](https://img.shields.io/npm/dm/react-native-picker-select.svg?style=flat-square)](https://www.npmjs.com/package/react-native-picker-select)
+[![npm version](https://badge.fury.io/js/react-native-picker-select-updated.svg)](https://badge.fury.io/js/react-native-picker-select)
+[![npm downloads](https://img.shields.io/npm/dm/react-native-picker-select-updated.svg?style=flat-square)](https://www.npmjs.com/package/react-native-picker-select)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/095f5b1ee137705ed382/test_coverage)](https://codeclimate.com/github/lawnstarter/react-native-picker-select/test_coverage)
-[![CircleCI](https://circleci.com/gh/lawnstarter/react-native-picker-select.svg?style=svg)](https://circleci.com/gh/lawnstarter/react-native-picker-select)
+[![CircleCI](https://img.shields.io/github/workflow/status/awibox/react-native-picker-select-updated/Release)](https://github.com/awibox/react-native-picker-select/actions/workflows/release.yml)
 
 A Picker component for React Native which emulates the native `<select>` interfaces for iOS and Android
 
@@ -22,7 +22,7 @@ For either platform, you can alternatively pass down a child element of your cho
 ### Installing
 
 ```
-npm install @awibox/react-native-picker-select
+npm install react-native-picker-select-updated
 
 # React Native users
 npm install @react-native-picker/picker
@@ -35,7 +35,7 @@ expo install @react-native-picker/picker
 ### Basic Usage
 
 ```js
-import RNPickerSelect from 'react-native-picker-select';
+import RNPickerSelect from 'react-native-picker-select-updated';
 
 export const Dropdown = () => {
     return (
@@ -77,7 +77,7 @@ export const Dropdown = () => {
 | `touchableWrapperProps`                         | Additional props to pass to the touchable wrapping the TextInput (some props are used in core functionality so use this carefully)                                                                                                                                                                                                                                                                                                                                                                      | object                   |
 | `onOpen`<br>                                    | Callback triggered right before the opening of the picker<br>_Not supported when `useNativeAndroidPickerStyle={true}`_                                                                                                                                                                                                                                                                                                                                                                                  | function                 |
 | `useNativeAndroidPickerStyle`<br>_Android only_ | The component defaults to using the native Android Picker in its un-selected state. Setting this flag to `false` will mimic the default iOS presentation where a tappable TextInput is displayed.<br>_More details in [styling](#styling)_                                                                                                                                                                                                                                                              | boolean                  |
-| `fixAndroidTouchableBug`<br>_Android only_      | Experimental flag to fix issue [#354](https://github.com/lawnstarter/react-native-picker-select/issues/354)                                                                                                                                                                                                                                                                                                                                                                                             | boolean                  |
+| `fixAndroidTouchableBug`<br>_Android only_      | Experimental flag to fix issue [#354](https://github.com/awibox/react-native-picker-select-updated/issues/354)                                                                                                                                                                                                                                                                                                                                                                                          | boolean                  |
 | `InputAccessoryView`<br>_iOS only_              | Replace the InputAcessoryView section (bar with tabbing arrown and Done button) of the opened picker with your own custom component. Can also return `null` here to hide completely. While this bar is typical on `select` elements on the web, the [interface guidelines](https://developer.apple.com/ios/human-interface-guidelines/controls/pickers/) does not include it. View the [snack](https://snack.expo.io/@lfkwtz/react-native-picker-select) to see examples on how this can be customized. | Component                |
 | `doneText`<br>_iOS only_                        | "Done" default text on the modal. Can be overwritten here                                                                                                                                                                                                                                                                                                                                                                                                                                               | string                   |
 | `onUpArrow / onDownArrow`<br>_iOS only_         | Presence enables the corresponding arrow<br>- Closes the picker<br>- Calls the callback provided                                                                                                                                                                                                                                                                                                                                                                                                        | function                 |
@@ -148,8 +148,6 @@ export const Dropdown = () => {
 
 Test suite included. This component has been used and tested since React Native v0.51.
 
-[![BrowserStack](https://i.imgur.com/cOdhMed.png)](https://www.browserstack.com/)
-
 ## License
 
-react-native-picker-select is [MIT licensed](https://github.com/lawnstarter/react-native-picker-select/tree/master/LICENSE) and built with :heart: in Austin, TX by the team at [LawnStarter](https://lawnstarter.com)
+react-native-picker-select-updated is [MIT licensed](https://github.com/lawnstarter/react-native-picker-select/tree/master/LICENSE)
