@@ -1,3 +1,4 @@
+import React from 'react';
 import {
     ModalProps,
     TextInputProps,
@@ -5,7 +6,6 @@ import {
     TouchableOpacityProps,
     ViewStyle,
 } from 'react-native';
-import React from 'react';
 import { PickerProps } from '@react-native-picker/picker/typings/Picker';
 
 export interface Item {

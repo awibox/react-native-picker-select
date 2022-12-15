@@ -18,7 +18,7 @@ jobs:
                       run: |
                           yarn install
                           yarn lint
-                          yarn test
+                          yarn test:coverage
                       env:
                           CI: true
                     - name: Coveralls GitHub Action
