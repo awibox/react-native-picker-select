@@ -1,5 +1,5 @@
 {
-    "name": "@awibox/react-native-picker-select",
+    "name": "react-native-picker-select",
     "version": "9.0.0",
     "description": "A Picker component for React Native which emulates the native <select> interfaces for each platform",
     "license": "MIT",
