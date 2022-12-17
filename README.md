@@ -1,7 +1,7 @@
 # react-native-picker-select
 
-[![npm version](https://badge.fury.io/js/react-native-picker-select-updated.svg)](https://badge.fury.io/js/react-native-picker-select)
-[![npm downloads](https://img.shields.io/npm/dm/react-native-picker-select-updated.svg?style=flat-square)](https://www.npmjs.com/package/react-native-picker-select)
+[![npm version](https://img.shields.io/npm/v/react-native-picker-select-updated)](https://www.npmjs.com/package/react-native-picker-select-updated)
+[![npm downloads](https://img.shields.io/npm/dm/react-native-picker-select-updated.svg?style=flat-square)](https://www.npmjs.com/package/react-native-picker-select-updated)
 [![Github Actions](https://img.shields.io/github/workflow/status/awibox/react-native-picker-select-updated/Release)](https://github.com/awibox/react-native-picker-select/actions/workflows/release.yml)
 [![Coverage](https://coveralls.io/repos/github/awibox/react-native-picker-select-updated/badge.svg?branch=master)](https://coveralls.io/github/awibox/react-native-picker-select-updated?branch=master)
 
